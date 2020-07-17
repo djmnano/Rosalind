@@ -1,6 +1,6 @@
 #1.2 Hidden Messages in the replication origin; Code Challenge: Implement PatternCount
 
-#Made by Dennis Kenbeek (4686357)
+#Made by Dennis Kenbeek
 
 def PatternCount(text, pattern):
     counter = 0
@@ -10,7 +10,7 @@ def PatternCount(text, pattern):
     print(counter)
     return
 
-f = open("/Users/denniskenbeek/Downloads/dataset_327573_6.txt", "r")
+f = open("path", "r")
 data = f.read().split('\n')
 f.close()
 
